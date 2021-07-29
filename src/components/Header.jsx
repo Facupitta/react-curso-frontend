@@ -4,9 +4,9 @@ function Header() {
                     <p>ESTART BÚTSTRAP</p>
                 </div>
                 <div className="Menu">
-                    <p>Chinchulin</p>
-                    <p>Chinchulon</p>
-                    <p>Chinchulancha</p>
+                    <p>PORTFÓLIO</p>
+                    <p>ABÁUT</p>
+                    <p>CÓNTACT</p>
                 </div>
             </header>
 }

@@ -1,0 +1,31 @@
+.Presentacion {
+    background-color: rgb(80, 150, 25);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.Presentacion h1 {
+    font-size: 60px;
+}
+
+.Presentacion div {
+    margin: 0 auto;
+}
+
+.Dibujito {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.Rayita {
+    background-color: white;
+    border-radius: 4px;
+    height: 4px;
+    width: 30%;
+}
