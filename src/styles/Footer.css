@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    background-color: rgb(255, 175, 70);
+    text-align: center;
+}
+
+.footerContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.footerContainer img {
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+}

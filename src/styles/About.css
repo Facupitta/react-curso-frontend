@@ -1,0 +1,18 @@
+.about {
+    background-color:rgb(255, 140, 80);
+    padding-top: 120px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.info {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+
+.info p {
+    text-align: left;
+    padding: 20px;
+}

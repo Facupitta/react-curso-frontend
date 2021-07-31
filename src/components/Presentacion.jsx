@@ -1,23 +1,16 @@
-import facupitta from './images/facupitta.png'
-import estrellitaBlanca from './images/estrellita_blanca.png'
+import EstrellitaBlanca from './EstrellitaBlanca'
+
+import './../styles/EstrellitaBlanca.css'
 
 function Presentacion() {
-    return  <div className="Presentacion">
-                <div>
-                    <img src={facupitta} alt="Facupitta"/>
-                </div>
-                <div>
-                    <h1>FACUPITTA</h1>
-                </div>
-                <div className="Dibujito">
-                    <div className="Rayita"></div>
-                    <img src={estrellitaBlanca} alt="Estrellita blanca"/>
-                    <div className="Rayita"></div>
-                </div>
-                <div>
-                    <h2>Boludito - Canchero - Maleducado</h2>
-                </div>
-            </div>
+    return <section className="presentacion">
+        <div className="res">
+            <img src="images/facupitta.png" alt="Facupitta 100% real no fake"/>
+            <h2>FACUPITTA</h2>
+            <EstrellitaBlanca></EstrellitaBlanca>
+            <p>Ing. en Sistemas - UTN - No le sale bien CSS</p>
+        </div>
+    </section>
 }
 
 export default Presentacion

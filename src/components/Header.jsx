@@ -1,14 +1,16 @@
 function Header() {
-    return  <header className="Header">
-                <div className="Start">
-                    <p>ESTART BÚTSTRAP</p>
-                </div>
-                <div className="Menu">
-                    <p>PORTFÓLIO</p>
-                    <p>ABÁUT</p>
-                    <p>CÓNTACT</p>
-                </div>
-            </header>
+    return  <header>
+        <div className="res">
+            <nav>
+                <h1><a href="#home">ESTART BÚTESTRAP</a></h1>
+                <ul>
+                    <li><a href="#como">CÓMO ESTOY</a></li>
+                    <li><a href="#cuando">CUÁNDO ESTOY</a></li>
+                    <li><a href="#donde">DÓNDE ESTOY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 }
 
 export default Header

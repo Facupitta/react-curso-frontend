@@ -1,0 +1,51 @@
+.contact {
+    background-color: rgb(255, 190, 140);
+    padding-top: 120px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.formulario {
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+    text-align: left;
+}
+
+.formulario button {
+    background-color: rgb(255, 175, 70);
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.formulario button:hover {
+    background-color: white;
+}
+
+.formDiv {
+    margin-top: 30px;
+}
+
+.formDiv label {
+    color:rgb(110, 110, 110);
+    font-weight: 500;
+}
+
+.formDiv input {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(110, 110, 110);
+    width: 100%;
+}
+
+.formDiv input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(34, 34, 34);
+}

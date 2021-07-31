@@ -1,5 +1,57 @@
-.Portfolio {
-    background-color: gray;
-    width: 100vw;
-    height: 100vh;
+.portfolio {
+    background-color: rgb(255, 190, 140);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.portfolio ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.portfolio ul li {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.portfolio ul li:hover {
+    transition: 0.2s;
+    background-color: rgb(255, 230, 0);
+}
+
+.portfolio ul img {
+    border-radius: 50%;
+}
+
+.portfolio ul .primero {
+    background-color: rgb(209, 0, 0);
+}
+
+.portfolio ul .segundo {
+    background-color: rgb(133, 49, 49);
+}
+
+.portfolio ul .tercero {
+    background-color: rgb(173, 102, 102);
+}
+
+.portfolio ul .cuarto {
+    background-color: rgb(184, 52, 52);
+}
+
+.portfolio ul .quinto {
+    background-color: rgb(92, 0, 0);
+}
+
+.portfolio ul .sexto {
+    background-color: rgb(161, 78, 78);
 }
